@@ -1,0 +1,90 @@
+/* App Container */
+.app-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General Styles */
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.task-title {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.task-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+/* Buttons */
+.task-button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-button:hover {
+  background-color: #0056b3;
+}
+
+.task-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Inputs */
+.task-input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+/* Child Components and Lists */
+.record-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.record-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.child-component {
+  padding: 5px 0;
+  color: #444;
+}
+
+/* Output Styles */
+.element, .binding-output, .sum-output {
+  font-size: 16px;
+  color: #444;
+  margin-top: 10px;
+}
